@@ -1,0 +1,84 @@
+#EXERCICI1
+print('EXERCICI 1')
+def notasclase (nota):
+    if nota < 5 and nota >=0:
+        print ('Suspès')
+    elif nota >= 5 and nota < 7:
+        print ('Aprovat')
+    elif nota >= 7 and nota < 9:
+        print ('Notable')
+    elif nota >= 9:
+        print ('Excellent')
+    else :
+        print ('La nota introducida no es valida');
+    
+
+nota = 9
+notasclase(nota)
+
+
+#EXERCICI2
+print('EXERCICI 2')
+def comparator():
+    
+    num1=int(input('Introduce el primer numero: '))
+    num2=int(input('Introduce el segundo numero: '))
+
+    if num1>num2:
+        print ('El primer numero es mayor')
+    elif num1<num2:
+        print ('El segundo numero es mayor')
+    else:
+        print ('Los dos numeros son iguales')
+        
+comparator()
+
+
+#EXERCICI3
+print('EXERCICI 3')
+
+def cansino():
+    nombre=input('Introduce un nombre: ')
+    veces=int(input('Introduce un numero: '))
+    i=1
+    
+    while i<=veces:
+        print(nombre, end=' ')
+        i=i+1
+        
+cansino()
+
+
+#EXERCICI4
+print('EXERCICI 4')
+
+def simetria(lista):
+
+nfil=(len(lista)-1
+ncol=(len(lista[0]))-1
+          
+if nfil==ncol: 
+    for i in range(0,nfil):
+        for j in range(0,ncol):
+            if (lista[i][j])==(lista[j][i]):
+                if i=nfil and j=ncol:
+                print ('La lista es simetrica y tiene un tamaño de',nfil,'filas y',ncol,'columnas')
+            else:
+                print('La lista no es simetrica')
+
+#Ejemplo
+matriz=[[1,1,5],[1,2,3],[5,3,4]]
+simetria(matriz)
+
+
+#EXERCICI5
+print('EXERCICI 5')
+
+def num_pos(lista):
+    tamaño=len(lista)
+    print('De la lista',lista,'coinciden en valor y posicion los siguientes numeros:',end=' ')
+    for i in range(0,tamaño):
+        if lista[i]==(i+1):
+            print(i)
+llista=(3,4,2,0,2,3,6)
+num_pos(llista)
