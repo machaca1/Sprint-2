@@ -73,7 +73,7 @@ if nfil==ncol:
 matriz=[[1,1,5],[1,2,3],[5,3,4]]
 simetria(matriz)
 
-
+#este ejercicio me da un error que no comprendo, invalid syntax en la definicion de ncol (fila 61)
 
 #EXERCICI5
 print('EXERCICI 5')
