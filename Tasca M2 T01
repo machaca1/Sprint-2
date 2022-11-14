@@ -1,0 +1,43 @@
+#EXERCICI 1
+print ('EXERCICI 1')
+T1 = ['enero', 'febrero', 'marzo']
+T2 = ['abril', 'mayo', 'junio']
+T3 = ['julio', 'agosto', 'septiembre']
+T4 = ['octubre', 'noviembre', 'diciembre']
+
+meses = [T1, T2, T3, T4]
+print(meses);
+
+
+
+#EXERCICI 2
+print ('EXERCICI 2')
+print (meses[0][1])
+print (meses[0][:])
+print (meses[2][2],meses[3][0])
+
+
+
+#EXERCICI 3
+print ('EXERCICI 3')
+numeros=(1,4,6,2,55,3,2,1,5,6,77,345,12,53,435,62,61,62,46,43,65,3,643,7,6,4,5)
+
+print ('La lista "numeros" tiene', len(numeros),'numeros');
+print ('El numero "3" aparece',numeros.count(3),'veces' );
+
+three=numeros.count(3)
+four=numeros.count(4)
+print('Los numeros "3" y "4" aparecen un total de', three+four,'veces' );
+print ('El valor mas grande de la lista es',max(numeros));
+print ('Los 3 numeros mas pequeños de las lista son',sorted(numeros)[:3])
+#duda ultima pregunta, a que se refiere con rango
+
+
+
+#EXERCICI4
+print ('EXERCICI 4')
+compra = { "Pomes" : {"Qty": 5, "€": 0.42}, "Peres" : {"Qty": 3, "€": 0.66} }
+limas = {"Limas" : {"Qty" : 4, "€" : 2}}
+compra.update(limas)
+print(compra) 
+#Duda: ¿no se puede añadir un diccionario a otro sin definirlo antes? En este caso al correr compra.update("Limas" : {"Qty" : 4, "€" : 2}) me daba error
