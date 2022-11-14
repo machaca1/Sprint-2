@@ -17,6 +17,7 @@ nota = 9
 notasclase(nota)
 
 
+
 #EXERCICI2
 print('EXERCICI 2')
 def comparator():
@@ -34,6 +35,7 @@ def comparator():
 comparator()
 
 
+
 #EXERCICI3
 print('EXERCICI 3')
 
@@ -47,6 +49,7 @@ def cansino():
         i=i+1
         
 cansino()
+
 
 
 #EXERCICI4
@@ -69,6 +72,7 @@ if nfil==ncol:
 #Ejemplo
 matriz=[[1,1,5],[1,2,3],[5,3,4]]
 simetria(matriz)
+
 
 
 #EXERCICI5
